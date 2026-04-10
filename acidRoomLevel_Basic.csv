@@ -123,8 +123,11 @@ SWRW-001758,"Identify Module Base Number",false,"0",,,,,,,"Base number of module
 SWRW-001757,"Identify Module Group Number",false,"0",,,,,,,"Group number of module to be identified (See ""Requested Module Name"" tag)",,,
 SBRW-001005,"Identify Module Request bit",false,"0",,,,,,,"Set On to refresh ""Requested Module Name"" tag per the 3 ""Identify"" GBS tags",,,
 SWRW-001759,"Identify Module Slot Number",false,"0",,,,,,,"Slot number of module to be identified (See ""Requested Module Name"" tag)",,,
+F32-000001,"InMax",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000002,"InMin",false,"0.0",,,,,,,,false,false,"0.0"
 SBRW-001002,"Initiate_New_Date",false,"0",,,,,,,"Set On to change clock date (see ""Clock Year Set"" tag)",,,
 SBRW-001001,"Initiate_New_Time",false,"0",,,,,,,"Set On to change clock time (see ""Clock Hours Set"" tag)",,,
+F32-000003,"Input",false,"0.0",,,,,,,,false,false,"0.0"
 SWR-001504,"Last Logic Scan Time [x100=usec]",false,"0",,,,,,,"Most recent logic scan time",,,
 SWR-001501,"Last Scan Interval [x100=usec]",false,"0",,,,,,,"Most recent overall scan time",,,
 MST-0.0.0.1,"MST-0.0.0.1",false,"0",,,,,,,"RS232 Heartbeat Timeout Bit",false,false,"0"
@@ -189,6 +192,8 @@ SSTR-000039,"Noncritical Error Log String 19",false,,,,50,,,,"19th most recent n
 SSTR-000040,"Noncritical Error Log String 20",false,,,,50,,,,"20th most recent noncritical error message",,,
 SWRW-000251,"Number of Critical Errors",false,"0",,,,,,,"Number of critical errors",,,
 SWRW-000252,"Number of Non-critical Errors",false,"0",,,,,,,"Number of noncritical errors",,,
+F32-000005,"OutMax",false,"0.0",,,,,,,,false,false,"0.0"
+F32-000006,"OutMin",false,"0.0",,,,,,,,false,false,"0.0"
 SSTR-000105,"PLC LCD Display[CPU]",false,,,,50,,,,"PLC LCD Data Display",,,
 SWR-001505,"Peak Logic Scan Time [x100=usec]",false,"0",,,,,,,"Longest logic scan time",,,
 SWR-001502,"Peak Scan Interval [x100=usec]",false,"0",,,,,,,"Longest overall scan time",,,
@@ -210,4 +215,11 @@ C-000001,"c100",false,"0",,,,,,,,false,false,"0"
 C-000004,"c101",false,"0",,,,,,,,false,false,"0"
 C-000002,"c102",false,"0",,,,,,,,false,false,"0"
 C-000003,"c103",false,"0",,,,,,,,false,false,"0"
+C-000008,"c104",false,"0",,,,,,,,false,false,"0"
+C-000009,"c105",false,"0",,,,,,,,false,false,"0"
+C-000010,"c106",false,"0",,,,,,,,false,false,"0"
 C-000005,"c110",false,"0",,,,,,,,false,false,"0"
+C-000006,"c200",false,"0",,,,,,,,false,false,"0"
+C-000007,"c201",false,"0",,,,,,,"warining out put",false,false,"0"
+F32-000004,"level_percentage",false,"0.0",,,,,,,"0-100% of acid",false,false,"0.0"
+S32-000004,"well_level",false,"0",,,,,,,"0-100% well acid level",false,false,"0"
