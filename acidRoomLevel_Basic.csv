@@ -115,6 +115,10 @@ DO-0.1.2.5,"DO-0.1.2.5",false,"0",,,,,,,,false,false,"0"
 DO-0.1.2.6,"DO-0.1.2.6",false,"0",,,,,,,,false,false,"0"
 DO-0.1.2.7,"DO-0.1.2.7",false,"0",,,,,,,,false,false,"0"
 DO-0.1.2.8,"DO-0.1.2.8",false,"0",,,,,,,,false,false,"0"
+STR-000001,"Email not sent",false,,,,128,,,,,,,
+C-000011,"Email sent",false,"0",,,,,,,,false,false,"0"
+C-000012,"Email_error",false,"0",,,,,,,,false,false,"0"
+C-000013,"Email_success",false,"0",,,,,,,,false,false,"0"
 SWR-001526,"Ethernet Speed [External]",false,"0",,,,,,,"""Ethernet"" port speed (Ethernet 10 or 100)",,,
 SWR-001527,"Ethernet Speed [Internal]",false,"0",,,,,,,"""Remote I/O"" port speed (Ethernet 10 or 100)",,,
 SBR-001004,"Every Other Scan Bit",false,"0",,,,,,,"Toggles at the start of each scan",,,
