@@ -5,8 +5,17 @@ CFreeman@MIS2530 MINGW64 ~/Desktop/git
 
  cd /c/Users/CFreeman/Desktop/git
 
+NEW URL FOR proSUITE: https://github.com/charlesFreeman63122/proSuitePLC.git
+
+git init
+
+
 git add .
 
-git commit -m "update"
+git commit -m "changed levels higher"
 
 git push
+
+cd /c/Users/CFreeman/Desktop/git/proSuite
+
+cd /c/Users/CFreeman/Desktop/git/doMoreTraining
