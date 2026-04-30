@@ -17,6 +17,8 @@ SWR-001503,"Avg Scan Interval [x100=usec]",false,"0",,,,,,,"Average overall scan
 SBR-001006,"Battery Disabled",false,"0",,,,,,,"Active if the ""CPU Battery Alarm"" is disabled in H/W Configuration",,,
 SBR-001005,"Battery Low Bit",false,"0",,,,,,,"Active if the battery is weak (""CPU Battery Alarm"" in H/W Configuration)",,,
 SWR-001518,"Battery Voltage",false,"0",,,,,,,"Battery voltage in 10ths of a volt",,,
+C-000027,"C400",false,"0",,,,,,,,false,false,"0"
+C-000028,"C700",false,"0",,,,,,,,false,false,"0"
 SSTR-000041,"CPU Event Log String 01",false,,,,50,,,,"Most recent CPU event log message",,,
 SSTR-000042,"CPU Event Log String 02",false,,,,50,,,,"2nd most recent CPU event log message",,,
 SSTR-000043,"CPU Event Log String 03",false,,,,50,,,,"3rd most recent CPU event log message",,,
